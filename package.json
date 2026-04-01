@@ -1,5 +1,5 @@
 {
-  "name": "@amboss-mededu/react-simple-wysiwyg",
+  "name": "react-simple-wysiwyg",
   "version": "3.7.2",
   "description": "Simple and lightweight React WYSIWYG editor with special characters support",
   "main": "lib/index.cjs.js",
@@ -12,18 +12,12 @@
     "pages": "gh-pages -d examples/github.io",
     "lint": "tsc --noEmit && eslint src examples",
     "postversion": "git push && git push --tags",
-    "prepare": "npm install --prefix examples/typescript",
-    "prepack": "npm run build",
     "test": "npm run lint && spech && jest",
     "test:unit": "jest",
     "test:e2e": "npm test --prefix e2e/cra",
     "test:full": "npm run test && npm run test:e2e"
   },
-  "repository": "amboss-mededu/react-simple-wysiwyg",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/",
-    "access": "restricted"
-  },
+  "repository": "ixbtcom/react-simple-wysiwyg",
   "files": [
     "lib"
   ],
@@ -35,8 +29,8 @@
   ],
   "author": "Alexey Prokhorov",
   "license": "MIT",
-  "bugs": "https://github.com/amboss-mededu/react-simple-wysiwyg/issues",
-  "homepage": "https://github.com/amboss-mededu/react-simple-wysiwyg#readme",
+  "bugs": "https://github.com/ixbtcom/react-simple-wysiwyg/issues",
+  "homepage": "https://github.com/ixbtcom/react-simple-wysiwyg#readme",
   "devDependencies": {
     "@rollup/plugin-replace": "^6.0.2",
     "@rollup/plugin-terser": "^0.4.4",
